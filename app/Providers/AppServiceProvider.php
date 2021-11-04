@@ -10,7 +10,7 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Register any application services.
      *
-     * @retufrn void
+     * @return void
      */
     public function register()
     {
