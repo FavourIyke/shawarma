@@ -29,3 +29,5 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/shawarma', [App\Http\Controllers\ShawarmaController::class, 'index'])->name('shawarma.index');
+Route::get('/shawarma/create', [App\Http\Controllers\ShawarmaController::class, 'create'])->name('shawarma.create');
+Route::post('/shawarma/store', [App\Http\Controllers\ShawarmaController::class, 'store'])->name('shawarma.store');
